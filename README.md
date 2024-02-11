@@ -1,4 +1,4 @@
-# Fetal Heart Rate Classification Cardiotocographic Project
+# Fetal Heart Rate Classification Project
 
 This project involves building machine learning models to classify fetal heart rate patterns based on various features extracted from cardiotocography (CTG) examinations. The dataset used in this project contains information about CTG examinations, including baseline values, accelerations, uterine contractions, and other parameters.
 
@@ -74,8 +74,18 @@ The dataset contains the following columns:
 7. **Voting Classifier with SVM and XGBoost**:
    - Achieved an accuracy of 88.08%.
 
+## Results
+
+- SVM: 87.77%
+- Decision Tree: 86.83%
+- Ensemble Techniques (Voting Classifier): 88.40%
+- Bagging Classifier: 88.87%
+- AdaBoost Classifier: 86.21%
+- XGBoost Classifier: 88.24%
+- Voting Classifier with SVM and XGBoost: 88.08%
+
 ## Conclusion
 
-- The ensemble techniques, especially the Voting Classifier, demonstrated the highest accuracy in classifying fetal heart rate patterns.
+- The ensemble techniques, especially the Voting Classifier and Bagging Classifier, demonstrated the highest accuracy in classifying fetal heart rate patterns.
 - XGBoost also performed well and can be considered for further optimization.
 - The project showcases the effectiveness of machine learning in classifying CTG examination results, which can aid in prenatal care decision-making.
